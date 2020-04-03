@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import jfxtras.labs.scene.layout.ScalableContentPane?>
+<?scenebuilder-classpath-element C:\Users\Agri Technika\.m2\repository\org\jfxtras\jfxtras-labs\8.0-r6\jfxtras-labs-8.0-r6.jar?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BaseUIController">
+   <top>
+      <HBox fx:id="menuBar" prefHeight="33.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <VBox fx:id="elementSelection" prefHeight="300.0" prefWidth="184.0" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <ScalableContentPane fx:id="linkingSpace" BorderPane.alignment="CENTER" />
+   </center>
+   <right>
+      <VBox fx:id="projectExplorer" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
